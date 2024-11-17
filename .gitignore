@@ -1,0 +1,19 @@
+.env
+.idea
+bin
+.git
+.DS_Store
+# Helm variables directory
+coverage.out
+vendor
+tmp
+.netrc
+swagger
+gitlab_grabber/__pycache__
+
+# python deps
+__pycache__
+dist
+sdist
+build
+.venv
