@@ -2,7 +2,7 @@
 
 install via pypi
 ```bash
-pip install gitlab_grabber
+pip install gitlab-grabber
 ```
 
 Usage to clone all repo via http (oauth)

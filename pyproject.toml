@@ -1,10 +1,9 @@
 [tool.poetry]
 name = "gitlab_grabber"
-version = "0.1.0"
-description = ""
-authors = ["Onder7994 <andrei.trusikhin@gmail.com>"]
+version = "1.0.2"
+description = "Clone all repository from gitlab"
+authors = ["Trusikhin Andrei <andrei.trusikhin@gmail.com>"]
 readme = "README.md"
-packages = [{include = "gitlab_grabber"}]
 license = "MIT"
 classifiers = [
     "Programming Language :: Python :: 3",
