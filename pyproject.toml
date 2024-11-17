@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gitlab_grabber"
-version = "1.0.3"
+version = "1.0.4"
 description = "Clone all repository from gitlab"
 authors = ["Trusikhin Andrei <andrei.trusikhin@gmail.com>"]
 readme = "README.md"

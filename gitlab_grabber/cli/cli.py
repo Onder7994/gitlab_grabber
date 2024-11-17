@@ -38,8 +38,8 @@ def create_parser() -> tuple[argparse.ArgumentParser, GitlabConfig]:
         "--url",
         required=False,
         dest="url",
-        default=os.environ.get("GITLAB_URL", "https://gitlab.com"),
-        help="Gitlab base url like https://domain.com",
+        default=os.environ.get("GITLAB_URL", "gitlab.com"),
+        help="Gitlab base url like domain.com",
     )
     parser.add_argument(
         "--crt-path",
