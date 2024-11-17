@@ -1,6 +1,16 @@
 # gitlab grabber
 
+install via pypi
+```bash
+pip install gitlab_grabber
+```
+
 Usage to clone all repo via http (oauth)
+main
+```bash
+gitlab_grabber --help
+```
+
 
 ```bash
 gitlab_grabber -t <token> -u https://<domain> -k -d /<dir> --auth http
