@@ -17,7 +17,7 @@ async def get_project(
     while True:
         response = await http_client.send_request(
             request_type="get",
-            url=gitlab.url + gitlab.api_url,
+            url=f"https://{gitlab.url}{gitlab.api_url}",
             headers={"PRIVATE-TOKEN": gitlab.token},
             params={"page": page},
         )

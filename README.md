@@ -5,20 +5,19 @@ install via pypi
 pip install gitlab-grabber
 ```
 
-Usage to clone all repo via http (oauth)
-main
+man
 ```bash
 gitlab_grabber --help
 ```
 
-
+Usage to clone all repo via http (oauth)
 ```bash
-gitlab_grabber -t <token> -u https://<domain> -k -d /<dir> --auth http
+gitlab_grabber -t <token> -u <domain> -k -d /<dir> --auth http
 ```
 
 Usage to clone all repo via ssh
 ```bash
-gitlab_grabber -t <token> -u https://<domain> -k -d /<dir> -i <path_to_ssh_private_key>
+gitlab_grabber -t <token> -u <domain> -k -d /<dir> -i <path_to_ssh_private_key>
 ```
 
 Clone via ssh is default. 
